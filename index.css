@@ -1,0 +1,80 @@
+/* .box-shadow{
+    box-shadow:0 0.25rem 0.75rem rgba(0, 0, 0, .05); ;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.container-fluid{
+    margin-top: 15px;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.h1,h1{
+   
+    color: white;
+}
+.py-3 {
+
+    padding-bottom: 1rem!important;
+    padding-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+   justify-content: space-around;
+  
+}
+
+.list-unstyled{
+    margin: 10px;
+    color: black;
+    
+}
+
+.list-unstyled li a{
+    color: black;
+    padding-bottom: 10px;
+    
+} */
+
+.carousel-control-prev i,
+.carousel-control-next i
+{
+    background: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-control-prev i:hover,
+.carousel-control-next i:hover{
+    background-color: green;
+}
+.carousel-indicators{
+    background-color: red;
+}
+.carousel-indicators li{
+    height: 20px !important;
+    width: 20px !important;
+    background-color: green !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators li:nth-child(2){
+    background: yellow !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+.carousel-caption{
+    top: 50% !important;
+}
